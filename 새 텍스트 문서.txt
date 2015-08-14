@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<project name="spring_example" default="compile" basedir=".">
+       <property name="build.dir"             location="build"/>
+       <property name="build.prod.dir"         location="${build.dir}/prod"/>
+       <property name="src.dir"                location="src"/>
+       <property name="lib.dir"                location="lib"/>
+      
+       <path id="project.classpath">
+             <pathelement location="${build.prod.dir}" />
+             <fileset dir="${lib.dir}">
+                    <include name="*.jar" />
+             </fileset>
+       </path>
+      
+       <target name="prepare">
+             <mkdir dir="${build.prod.dir}" />
+       </target>
+      
+       <target name="compile" depends="prepare">
+             <javac srcdir="${src.dir}" destdir="${build.prod.dir}">
+                    <classpath refid="project.classpath" />
+             </javac>
+       </target>
+</project>
