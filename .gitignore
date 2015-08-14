@@ -1,5 +1,7 @@
 *.class
 *.wav
+.gradle
+build
 test*
 
 # Mobile Tools for Java (J2ME)

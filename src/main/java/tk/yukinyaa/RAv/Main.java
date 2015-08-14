@@ -32,12 +32,19 @@ public class Main extends JFrame
 
 
     public static void main(String[] args) {
+        String[] args2;
+        if(args.length<=1){
+	args2=new String[1];
+	args2[0]="test.wav_";
+	System.out.println("hello");
+        }
+        else args2=args;
         EventQueue.invokeLater(new Runnable() {    
             @Override
             public void run()
             {                
              	try{
-	                JFrame ex = new Main(args[0]);
+	                JFrame ex = new Main(args2[0]);
 	                ex.setVisible(true);                
         		}catch (Exception e){
         			System.out.println(getErr(e));
