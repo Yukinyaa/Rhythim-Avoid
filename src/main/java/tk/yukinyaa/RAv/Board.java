@@ -45,7 +45,7 @@ public class Board extends JPanel
     Character chara;
     float bufmx;
     String file;
-    int save_Point;
+    int savePoint;
     public Board(String arg) throws IOException, UnsupportedAudioFileException, LineUnavailableException, InterruptedException 
     {
         file = arg;
