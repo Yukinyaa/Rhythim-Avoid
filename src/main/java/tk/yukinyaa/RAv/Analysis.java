@@ -1,3 +1,4 @@
+package tk.yukinyaa.RAv;
 public class Analysis
 { 
 	float soundPower[];

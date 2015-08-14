@@ -1,3 +1,5 @@
+package tk.yukinyaa.RAv;
+
 public class algo
 { 
   static public int[] four1(int datai[], int nn, int isign) {
