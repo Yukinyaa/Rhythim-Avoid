@@ -1,4 +1,4 @@
-package tk.yukinyaa.RAv;
+package moe.meu.RAv;
 
 public class algo
 { 

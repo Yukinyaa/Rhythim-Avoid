@@ -1,4 +1,4 @@
-package tk.yukinyaa.RAv;
+package moe.meu.RAv;
 
 import java.awt.Color;
 import java.awt.Dimension;
