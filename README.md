@@ -1,5 +1,5 @@
 # Rhythim-Avoid
-Simple Game.
+Simple Game. Also my 2nd game
 
 Insert wav file to start.
 
